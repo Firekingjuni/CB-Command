@@ -1,0 +1,13 @@
+name: commands
+version: '${project.version}'
+main: com.nethercraft.cb.Commands
+api-version: 1.19
+commands:
+  gm:
+    description: change your Gamemode
+    permission: nethercraft.gm
+  head:
+    description: gives you a player head
+    permission: nethercraft.head
+
+
